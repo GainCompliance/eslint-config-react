@@ -1,0 +1,32 @@
+{
+  "name": "@gaincompliance/eslint-config-react",
+  "description": "Shareable config for ESLint for React components",
+  "license": "MIT",
+  "version": "0.0.0-semantically-released",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "GainCompliance/eslint-config-react",
+  "bugs": "https://github.com/GainCompliance/eslint-config-react/issues",
+  "homepage": "https://npm.im/@gaincompliance/eslint-config-react",
+  "author": "Gain Compliance (https://github.com/GainCompliance)",
+  "scripts": {
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:md": "remark . --frail",
+    "lint:sensitive": "ban",
+    "lint:travis": "travis-lint .travis.yml"
+  },
+  "devDependencies": {
+    "@gaincompliance/remark-preset-lint": "^1.0.2",
+    "ban-sensitive-files": "^1.9.2",
+    "commitlint-config-gain": "^1.0.17",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.0.4",
+    "npm-run-all": "^4.1.5",
+    "remark-cli": "^7.0.0",
+    "travis-lint": "^1.0.0"
+  }
+}
