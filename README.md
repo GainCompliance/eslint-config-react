@@ -1,9 +1,8 @@
 # eslint-config-react
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/GainCompliance/eslint-config-react.svg)](https://greenkeeper.io/)
-
 [Shareable config](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
-for [ESLint](https://eslint.org) for [React](https://reactjs.org) components
+for [ESLint](https://eslint.org) for [React](https://reactjs.org) components,
+which extends [@form8ion/eslint-config-react](https://github.com/form8ion/eslint-config-react)
 
 <!-- status badges -->
 [![Build Status][ci-badge]][ci-link]
@@ -27,6 +26,7 @@ $ npm install @gaincompliance/eslint-config-react --save-dev
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/GainCompliance/eslint-config-react.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
