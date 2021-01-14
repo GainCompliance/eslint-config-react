@@ -40,6 +40,7 @@ module.exports = {
         'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
         'react/prop-types': 'off',
         'react/jsx-props-no-spreading': 'off',
+        'react/forbid-prop-types': 'off',
         'react/jsx-boolean-value': ['error', 'always'],
         'jsx-a11y/click-events-have-key-events': 'off',
         'jsx-a11y/no-static-element-interactions': 'off'
