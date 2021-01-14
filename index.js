@@ -18,6 +18,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react/forbid-prop-types': 'off',
     'react/state-in-constructor': ['error', 'never'],
     'react/destructuring-assignment': ['error', 'always', {ignoreClassFields: true}],
     'react/jsx-props-no-spreading': ['error', {custom: 'ignore'}],
