@@ -1,3 +1,4 @@
+# DEPRECATED please use `@gaincompliance/eslint-config/react` in the `GainCompliance/eslint-config` repo
 # eslint-config-react
 
 [Shareable config](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
